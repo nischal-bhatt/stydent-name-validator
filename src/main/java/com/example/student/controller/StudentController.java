@@ -21,6 +21,7 @@ public class StudentController {
     public StudentDto retrieveStudent(@RequestBody @Valid StudentName studentName)
     {
 
+        System.out.println("nish here");
         System.out.println("printing");
         System.out.println(studentName.getStudentName());
         Student student = new Student();
